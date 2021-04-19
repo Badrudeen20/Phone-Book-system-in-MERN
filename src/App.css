@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family:'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav_bar{
+  position: relative;
+}
+.add_person{
+   position: absolute;
+   width: 100vw;
+   height: 100vh;
+   top:0;
+   left:0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(54, 54, 54, 0.5);
+}
+.person{
+  position: absolute;
+  width: 500px;
+  top:32%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.pointer{
+  cursor: pointer;
+}
+.search{
+  position: absolute;
+  right:50px;
+}
